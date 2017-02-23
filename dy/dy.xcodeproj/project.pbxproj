@@ -7,12 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		075E7EAD1E558BC500004B10 /* YKPageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075E7EAC1E558BC500004B10 /* YKPageTitleView.swift */; };
+		077630271E56A1D200A920D2 /* YKPageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077630261E56A1D200A920D2 /* YKPageContentView.swift */; };
+		077630291E56A34600A920D2 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077630281E56A34600A920D2 /* UIColor+Extension.swift */; };
+		07A4A2821E5E852E008B76E4 /* YKRecommendVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A4A2811E5E852E008B76E4 /* YKRecommendVC.swift */; };
 		07F0F3271E248748002BB37D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F0F3261E248748002BB37D /* AppDelegate.swift */; };
 		07F0F3291E248748002BB37D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F0F3281E248748002BB37D /* ViewController.swift */; };
 		07F0F33C1E248748002BB37D /* dyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F0F33B1E248748002BB37D /* dyTests.swift */; };
 		07F0F3471E248748002BB37D /* dyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F0F3461E248748002BB37D /* dyUITests.swift */; };
 		07F0F3601E24931A002BB37D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07F0F35E1E24931A002BB37D /* Assets.xcassets */; };
 		07F0F3611E24931A002BB37D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07F0F35F1E24931A002BB37D /* Info.plist */; };
+		07F0F3651E24B8BE002BB37D /* YKTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F0F3641E24B8BE002BB37D /* YKTabBarVC.swift */; };
+		07F0F37B1E24BFAF002BB37D /* BSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F0F37A1E24BFAF002BB37D /* BSViewController.swift */; };
+		07F0F37D1E24BFF3002BB37D /* YKHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F0F37C1E24BFF3002BB37D /* YKHomeViewController.swift */; };
+		07F0F37F1E24C009002BB37D /* YKLiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F0F37E1E24C009002BB37D /* YKLiveViewController.swift */; };
+		07F0F3811E24C01E002BB37D /* YKFollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F0F3801E24C01E002BB37D /* YKFollowViewController.swift */; };
+		07F0F3831E24C03C002BB37D /* YKProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F0F3821E24C03C002BB37D /* YKProfileViewController.swift */; };
+		07F0F3861E24CE9D002BB37D /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F0F3851E24CE9D002BB37D /* UIBarButtonItem-Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		075E7EAC1E558BC500004B10 /* YKPageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKPageTitleView.swift; sourceTree = "<group>"; };
+		077630261E56A1D200A920D2 /* YKPageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKPageContentView.swift; sourceTree = "<group>"; };
+		077630281E56A34600A920D2 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		07A4A2811E5E852E008B76E4 /* YKRecommendVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKRecommendVC.swift; sourceTree = "<group>"; };
 		07F0F3231E248748002BB37D /* dy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07F0F3261E248748002BB37D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07F0F3281E248748002BB37D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,6 +59,13 @@
 		07F0F3481E248748002BB37D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07F0F35E1E24931A002BB37D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07F0F35F1E24931A002BB37D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07F0F3641E24B8BE002BB37D /* YKTabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKTabBarVC.swift; sourceTree = "<group>"; };
+		07F0F37A1E24BFAF002BB37D /* BSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BSViewController.swift; sourceTree = "<group>"; };
+		07F0F37C1E24BFF3002BB37D /* YKHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKHomeViewController.swift; sourceTree = "<group>"; };
+		07F0F37E1E24C009002BB37D /* YKLiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKLiveViewController.swift; sourceTree = "<group>"; };
+		07F0F3801E24C01E002BB37D /* YKFollowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKFollowViewController.swift; sourceTree = "<group>"; };
+		07F0F3821E24C03C002BB37D /* YKProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKProfileViewController.swift; sourceTree = "<group>"; };
+		07F0F3851E24CE9D002BB37D /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +167,10 @@
 		07F0F3561E2492BB002BB37D /* Fine */ = {
 			isa = PBXGroup;
 			children = (
+				07F0F36E1E24BF4D002BB37D /* Controller */,
+				07F0F36F1E24BF4D002BB37D /* Model */,
+				07F0F3701E24BF4D002BB37D /* View */,
+				07F0F3711E24BF4D002BB37D /* ViewModel */,
 			);
 			path = Fine;
 			sourceTree = "<group>";
@@ -152,6 +178,10 @@
 		07F0F3571E2492BB002BB37D /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				07F0F3661E24BF3D002BB37D /* Controller */,
+				07F0F3671E24BF3D002BB37D /* Model */,
+				07F0F3681E24BF3D002BB37D /* View */,
+				07F0F3691E24BF3D002BB37D /* ViewModel */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -159,6 +189,10 @@
 		07F0F3581E2492BB002BB37D /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				07F0F36A1E24BF44002BB37D /* Controller */,
+				07F0F36B1E24BF44002BB37D /* Model */,
+				07F0F36C1E24BF44002BB37D /* View */,
+				07F0F36D1E24BF44002BB37D /* ViewModel */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -166,6 +200,11 @@
 		07F0F3591E2492BB002BB37D /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				07F0F3641E24B8BE002BB37D /* YKTabBarVC.swift */,
+				07F0F3721E24BF5C002BB37D /* Controller */,
+				07F0F3731E24BF5C002BB37D /* Model */,
+				07F0F3741E24BF5C002BB37D /* View */,
+				07F0F3751E24BF5C002BB37D /* ViewModel */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -173,6 +212,10 @@
 		07F0F35A1E2492BB002BB37D /* Me */ = {
 			isa = PBXGroup;
 			children = (
+				07F0F3761E24BF6C002BB37D /* Controller */,
+				07F0F3771E24BF6C002BB37D /* Model */,
+				07F0F3781E24BF6C002BB37D /* View */,
+				07F0F3791E24BF6C002BB37D /* ViewModel */,
 			);
 			path = Me;
 			sourceTree = "<group>";
@@ -180,6 +223,7 @@
 		07F0F35B1E2492BB002BB37D /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				07F0F3841E24CE6F002BB37D /* Extension */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -198,6 +242,163 @@
 				07F0F35F1E24931A002BB37D /* Info.plist */,
 			);
 			path = Configuration;
+			sourceTree = "<group>";
+		};
+		07F0F3661E24BF3D002BB37D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				07F0F37C1E24BFF3002BB37D /* YKHomeViewController.swift */,
+				07A4A2811E5E852E008B76E4 /* YKRecommendVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		07F0F3671E24BF3D002BB37D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		07F0F3681E24BF3D002BB37D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		07F0F3691E24BF3D002BB37D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		07F0F36A1E24BF44002BB37D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				07F0F37E1E24C009002BB37D /* YKLiveViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		07F0F36B1E24BF44002BB37D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		07F0F36C1E24BF44002BB37D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		07F0F36D1E24BF44002BB37D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		07F0F36E1E24BF4D002BB37D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				07F0F3801E24C01E002BB37D /* YKFollowViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		07F0F36F1E24BF4D002BB37D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		07F0F3701E24BF4D002BB37D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		07F0F3711E24BF4D002BB37D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		07F0F3721E24BF5C002BB37D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				07F0F37A1E24BFAF002BB37D /* BSViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		07F0F3731E24BF5C002BB37D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		07F0F3741E24BF5C002BB37D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				075E7EAC1E558BC500004B10 /* YKPageTitleView.swift */,
+				077630261E56A1D200A920D2 /* YKPageContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		07F0F3751E24BF5C002BB37D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		07F0F3761E24BF6C002BB37D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				07F0F3821E24C03C002BB37D /* YKProfileViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		07F0F3771E24BF6C002BB37D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		07F0F3781E24BF6C002BB37D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		07F0F3791E24BF6C002BB37D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		07F0F3841E24CE6F002BB37D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				07F0F3851E24CE9D002BB37D /* UIBarButtonItem-Extension.swift */,
+				077630281E56A34600A920D2 /* UIColor+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,7 +536,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				07F0F3291E248748002BB37D /* ViewController.swift in Sources */,
+				07A4A2821E5E852E008B76E4 /* YKRecommendVC.swift in Sources */,
+				07F0F37B1E24BFAF002BB37D /* BSViewController.swift in Sources */,
+				077630271E56A1D200A920D2 /* YKPageContentView.swift in Sources */,
+				077630291E56A34600A920D2 /* UIColor+Extension.swift in Sources */,
+				07F0F37F1E24C009002BB37D /* YKLiveViewController.swift in Sources */,
 				07F0F3271E248748002BB37D /* AppDelegate.swift in Sources */,
+				075E7EAD1E558BC500004B10 /* YKPageTitleView.swift in Sources */,
+				07F0F3831E24C03C002BB37D /* YKProfileViewController.swift in Sources */,
+				07F0F37D1E24BFF3002BB37D /* YKHomeViewController.swift in Sources */,
+				07F0F3651E24B8BE002BB37D /* YKTabBarVC.swift in Sources */,
+				07F0F3811E24C01E002BB37D /* YKFollowViewController.swift in Sources */,
+				07F0F3861E24CE9D002BB37D /* UIBarButtonItem-Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,7 +680,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 4UED9RKQF6;
-				INFOPLIST_FILE = dy/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/dy/Class/Configuration/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eric.dy;
@@ -483,7 +695,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 4UED9RKQF6;
-				INFOPLIST_FILE = dy/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/dy/Class/Configuration/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eric.dy;
@@ -565,6 +777,7 @@
 				07F0F34D1E248748002BB37D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07F0F34E1E248748002BB37D /* Build configuration list for PBXNativeTarget "dyTests" */ = {
 			isa = XCConfigurationList;
@@ -573,6 +786,7 @@
 				07F0F3501E248748002BB37D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07F0F3511E248748002BB37D /* Build configuration list for PBXNativeTarget "dyUITests" */ = {
 			isa = XCConfigurationList;
@@ -581,6 +795,7 @@
 				07F0F3531E248748002BB37D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

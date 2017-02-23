@@ -13,23 +13,25 @@ class YKTabBarVC: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        addChildVCs(vc: YKHomeViewController(), title:"首页", imageName: "btn_home_")
+        addChildVCs(vc: YKLiveViewController(), title:"直播", imageName: "btn_column_")
+        addChildVCs(vc: YKFollowViewController(), title:"关注", imageName: "btn_live_")
+        addChildVCs(vc: YKProfileViewController(), title:"我的", imageName: "btn_user_")
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+   
+}
+
+extension YKTabBarVC{
     
+    fileprivate func addChildVCs(vc:UIViewController,title:String,imageName:String){
+        vc.title = title
+        vc.tabBarItem.image = UIImage(named: imageName + "normal")
+        vc.tabBarItem.selectedImage = UIImage(named: imageName + "_selected")
+        //        vc.tabBarItem.title = "skdsk"
+        let nav  = UINavigationController(rootViewController:vc)
+        
+        addChildViewController(nav)
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
     }
-    */
-
 }
