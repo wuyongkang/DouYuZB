@@ -11,6 +11,7 @@
 		077630271E56A1D200A920D2 /* YKPageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077630261E56A1D200A920D2 /* YKPageContentView.swift */; };
 		077630291E56A34600A920D2 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077630281E56A34600A920D2 /* UIColor+Extension.swift */; };
 		07A4A2821E5E852E008B76E4 /* YKRecommendVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A4A2811E5E852E008B76E4 /* YKRecommendVC.swift */; };
+		07A4A2841E600712008B76E4 /* YKRecommentHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A4A2831E600711008B76E4 /* YKRecommentHeader.swift */; };
 		07F0F3271E248748002BB37D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F0F3261E248748002BB37D /* AppDelegate.swift */; };
 		07F0F3291E248748002BB37D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F0F3281E248748002BB37D /* ViewController.swift */; };
 		07F0F33C1E248748002BB37D /* dyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F0F33B1E248748002BB37D /* dyTests.swift */; };
@@ -48,6 +49,7 @@
 		077630261E56A1D200A920D2 /* YKPageContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKPageContentView.swift; sourceTree = "<group>"; };
 		077630281E56A34600A920D2 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		07A4A2811E5E852E008B76E4 /* YKRecommendVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKRecommendVC.swift; sourceTree = "<group>"; };
+		07A4A2831E600711008B76E4 /* YKRecommentHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YKRecommentHeader.swift; sourceTree = "<group>"; };
 		07F0F3231E248748002BB37D /* dy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07F0F3261E248748002BB37D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07F0F3281E248748002BB37D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -263,6 +265,7 @@
 		07F0F3681E24BF3D002BB37D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				07A4A2831E600711008B76E4 /* YKRecommentHeader.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -546,6 +549,7 @@
 				07F0F3831E24C03C002BB37D /* YKProfileViewController.swift in Sources */,
 				07F0F37D1E24BFF3002BB37D /* YKHomeViewController.swift in Sources */,
 				07F0F3651E24B8BE002BB37D /* YKTabBarVC.swift in Sources */,
+				07A4A2841E600712008B76E4 /* YKRecommentHeader.swift in Sources */,
 				07F0F3811E24C01E002BB37D /* YKFollowViewController.swift in Sources */,
 				07F0F3861E24CE9D002BB37D /* UIBarButtonItem-Extension.swift in Sources */,
 			);

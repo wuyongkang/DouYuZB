@@ -38,7 +38,9 @@ class YKHomeViewController: BSViewController {
         let contentH = srceenH - StateBarH - titleViewH - navigationBarH
         let contentFrame = CGRect(x: 0, y: StateBarH + titleViewH + navigationBarH , width: srceenW, height: contentH)
         var childVCs = [UIViewController]()
-        for _ in 0..<4{
+        let recommentVC = YKRecommendVC()
+        childVCs.append(recommentVC)
+        for _ in 0..<3{
             let vc = UIViewController()
            childVCs.append(vc)
         }
